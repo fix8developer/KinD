@@ -1,0 +1,22 @@
+# Research Paper
+Kindling the Darkness A Practical Low-light Image Enhancer.pdf
+
+# Pre-Trained Checkpoint
+KinD_pre_checkpoint.zip
+
+# Original LOLdataset and add several all-zero images
+# to improve the decomposition results and restoration results
+LOLdataset Manual.zip
+
+# Directories are keeped due to (.gitkeep) file in it
+LOLdataset/eval15/high/*
+LOLdataset/eval15/low/*
+LOLdataset/our485/high/*
+LOLdataset/our485/low/*
+results/test/*
+test/*.jpg
+
+# Ignore the Directories
+checkpoint/decom_net_train/*
+checkpoint/illumination_adjust_net_train/*
+checkpoint/Restoration_net_train/*
